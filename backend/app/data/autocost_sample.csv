@@ -1,0 +1,35 @@
+record_id,date,service,owner,cost_inr,notes
+1001,2026-03-01,Compute VM,Team A,18500,Monthly VM charge
+1002,2026-03-01,Storage Blob,Team A,4200,Storage usage
+1003,2026-03-01,Database,Team B,24000,DB instance cost
+1004,2026-03-02,Compute VM,Team A,18500,Monthly VM charge
+1005,2026-03-02,Compute VM,Team A,18500,Monthly VM charge
+1005-dup,2026-03-02,Compute VM,Team A,18500,Monthly VM charge (duplicate)
+1006,2026-03-02,Storage Blob,Team A,5100,Storage growth
+1007,2026-03-03,Database,Team B,31000,Scale-up event
+1008,2026-03-03,Compute VM,Team C,9600,New workload
+1009,2026-03-03,Compute VM,Team C,9600,New workload
+1010,2026-03-04,Database,Team B,24500,Back to normal
+1011,2026-03-04,Storage Blob,Team A,5200,Normal
+1012,2026-03-05,Compute VM,Team A,18500,Monthly VM charge
+1013,2026-03-05,Compute VM,Team A,38000,Unexpected high cost
+1015,2026-03-06,Database,Team B,62000,Sudden spike
+1015-dup1,2026-03-06,Database,Team B,62000,Sudden spike (duplicate)
+1015-dup2,2026-03-06,Database,Team B,62000,Sudden spike (duplicate)
+1016,2026-03-06,Storage Blob,Team A,5400,Normal
+1017,2026-03-07,Compute VM,Team C,9900,Slight growth
+1018,2026-03-07,Compute VM,Team C,15500,Spike for batch job
+1019,2026-03-08,Database,Team B,26000,Normal
+1020,2026-03-08,Storage Blob,Team A,9000,Cost above average
+1021,2026-03-09,Compute VM,Team A,18500,Monthly VM charge
+1022,2026-03-09,Compute VM,Team A,18500,Monthly VM charge (duplicate)
+1022-dup,2026-03-09,Compute VM,Team A,18500,Monthly VM charge (duplicate)
+1023,2026-03-09,Network,Team D,12000,Data egress high
+1024,2026-03-10,Network,Team D,12500,Data egress high
+1025,2026-03-10,Compute VM,Team A,21000,Small increase
+1026,2026-03-11,Storage Blob,Team A,5600,Normal
+1027,2026-03-11,Database,Team B,25500,Normal
+1028,2026-03-12,Compute VM,Team C,9800,Normal
+1029,2026-03-12,Compute VM,Team C,9800,Normal (duplicate)
+1029-dup,2026-03-12,Compute VM,Team C,9800,Normal (duplicate)
+1030,2026-03-12,Database,Team B,65000,Spike again

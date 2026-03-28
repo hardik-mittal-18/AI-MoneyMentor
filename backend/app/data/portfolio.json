@@ -1,0 +1,8 @@
+{
+  "user": "Demo User",
+  "portfolio": [
+    { "stock": "RELIANCE", "quantity": 10, "price": 2500 },
+    { "stock": "TCS", "quantity": 5, "price": 3800 },
+    { "stock": "INFY", "quantity": 8, "price": 1500 }
+  ]
+}
